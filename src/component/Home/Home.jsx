@@ -27,22 +27,22 @@ const Home = () => {
         let selectedVideo;
         switch (videoId) {
           case 'intro':
-            selectedVideo = "https://github.com/Lin0He/Travel_webpage_AI/raw/main/src/video/In_forest_1080p.mp4";
+            selectedVideo = "https://github.com/Lin0He/Travel_webpage/raw/main/src/video/In_forest_1080p.mp4";
             break;
           case 'demo':
-            selectedVideo = "https://github.com/Lin0He/Travel_webpage_AI/raw/main/src/video/Amsterdam_boattrip_1080p.mp4";
+            selectedVideo = "https://github.com/Lin0He/Travel_webpage/raw/main/src/video/Amsterdam_boattrip_1080p.mp4";
             break;
           case 'searchbar':
-            selectedVideo = "https://github.com/Lin0He/Travel_webpage_AI/raw/main/src/video/Ocean_1080p.mp4";
+            selectedVideo = "https://github.com/Lin0He/Travel_webpage/raw/main/src/video/Ocean_1080p.mp4";
             break;
           case 'drink':
-            selectedVideo = "https://github.com/Lin0He/Travel_webpage_AI/raw/main/src/video/Drinking_Tea_1080p.mp4";
+            selectedVideo = "https://github.com/Lin0He/Travel_webpage/raw/main/src/video/Drinking_Tea_1080p.mp4";
             break;
           case 'eat':
-            selectedVideo = "https://github.com/Lin0He/Travel_webpage_AI/raw/main/src/video/Singleman_drinking_dawn_1080p.mp4";
+            selectedVideo = "https://github.com/Lin0He/Travel_webpage/raw/main/src/video/Singleman_drinking_dawn_1080p.mp4";
             break;
           case 'contact':
-            selectedVideo = "https://github.com/Lin0He/Travel_webpage_AI/raw/main/src/video/Plan_1080p.mp4";
+            selectedVideo = "https://github.com/Lin0He/Travel_webpage/raw/main/src/video/Plan_1080p.mp4";
             break;
         }
         setActivePage(videoId);
